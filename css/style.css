@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.grid > .cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid cornflowerblue;
+    color: cornflowerblue;
+    background-color: blue;
+    line-height: 100px;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.grid > .cell.click {
+    border: 1px solid blue;
+    color: blue;
+    background-color: skyblue;
+}
